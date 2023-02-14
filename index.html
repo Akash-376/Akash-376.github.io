@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="homeSection.css">
+    <title>Akash Chauhan Portfolio</title>
+</head>
+<body>
+    <nav id="nav-menu" class="navBG">
+        <div class="logo">
+            <a href="#"> Akash <span>Chauhan</span> </a> 
+        </div>
+        <ul>   
+            <li><a class="nav-link home" href="#home">Home</a></li>
+            <li><a class="nav-link about" href="#about">About</a></li>
+            <li><a class="nav-link skills" href="#skills">Skills</a></li>
+            <li><a class="nav-link projects" href="#projects">Projects</a></li>
+            <li><a class="nav-link contact" href="#contact">Contact</a></li>
+            <li><a class="nav-link resume" id="resume-link-1" href="path/to/resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div id="home-left">
+            <p id="hi">Hi,my name is</p>
+            <div id="user-detail-name">Akash <span> Chauhan </span></div>
+            <div id="user-detail-intro" class="typing"> <span> I am a </span> Full Stack web developer </div>
+            <button id="resume-button-2" onclick="window.open('https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing', '_blank')">Download Resume</button>
+        </div>
+        <div id="home-right">
+            <img class="home-img" src="" alt="Professional Photo">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <!-- Add content here -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-card">
+            <img class="skills-card-img" src="path/to/skill-image.jpg" alt="Skill">
+            <div class="skills-card-name">Skill Name</div>
+        </div>
+        <!-- Add more skills cards here -->
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-card">
+            <img src="path/to/project-image.jpg" alt="Project Image">
+            <div class="project-title">Project Title</div>
+            <div class="project-description">A brief description of the project</div>
+            <div class="project-tech-stack">The tech stack used in the project</div>
+            <a class="project-github-link" href="https://github.com/user/project" target="_blank">GitHub Repository</a>
+            <a class="project-deployed-link" href="https://deployed-project.com" target="_blank">Deployed Link</a>
+        </div>
+        <!-- Add more project cards here -->
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <a id="contact-github" href="https://github.com/user" target="_blank">GitHub Profile</a>
+        <a id="contact-linkedin" href="https://linkedin.com/in/user" target="_blank">LinkedIn Profile</a>
+        <div id="contact-phone">Phone Number</div>
+        <div id="contact-email">Email Address</div>
+    </section>
+
+</body>
+</html>
+
+<script src="index.js"></script>
