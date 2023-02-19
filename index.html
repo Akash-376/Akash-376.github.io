@@ -7,8 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="navBar.css">
-    <link rel="stylesheet" href="homeSection.css">
+    <link rel="stylesheet" href="styleSheet/navBar.css">
+    <link rel="stylesheet" href="styleSheet/homeSection.css">
+    <link rel="stylesheet" href="styleSheet/aboutme.css">
+    <link rel="stylesheet" href="styleSheet/skills.css">
+    <link rel="stylesheet" href="styleSheet/projects.css">
+    <link rel="stylesheet" href="styleSheet/contact.css">
     <title>Akash Chauhan Portfolio</title>
 </head>
 <body>
@@ -22,7 +26,7 @@
             <li><a class="nav-link skills" href="#skills">Skills</a></li>
             <li><a class="nav-link projects" href="#projects">Projects</a></li>
             <li><a class="nav-link contact" href="#contact">Contact</a></li>
-            <li><a class="nav-link resume" id="resume-link-1" href="path/to/resume.pdf" target="_blank">Resume</a></li>
+            <li><a class="nav-link resume" id="resume-link-1" href="https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing" target="_blank" title="Download resume" download>Resume <span id="downArrow">&#8681</span></a></li>
         </ul>
     </nav>
 
@@ -33,45 +37,151 @@
             <div id="user-detail-name">Akash <span> Chauhan </span></div>
             <div id="user-detail-intro" class="typing"> <span> I am a </span> Full Stack web developer </div>
             <button id="resume-button-2" onclick="window.open('https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing', '_blank')">Download Resume</button>
+
+            <!-- <a id="resume-button-2" href="Akash_Chauhan_Resume.pdf" download>Download Resume</a> -->
         </div>
         <div id="home-right">
-            <img class="home-img" src="" alt="Professional Photo">
+            <img class="home-img" src="Images/businessman-avatar.png" alt="Professional Photo">
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
         <!-- Add content here -->
+        <img src="Images/akash.png" alt="">
+        <div id="hiText">Hi, I am Akash Chauhan</div>
+        <div id="discp">
+
+            As a full stack web developer, I have always been passionate about creating innovative and user-friendly web applications that make people's lives easier. My journey in the world of web development began with learning the fundamentals of programming and building small projects.
+            I believe that clear communication and collaboration are essential to success in web development projects, and I strive to work closely with clients and team members to ensure that everyone is on the same page and the project runs smoothly.
+            I am constantly learning and expanding my skill set, whether it's through attending conferences, participating in online courses, or experimenting with new technologies.
+
+            In short, I am a dedicated and experienced full stack web developer who is passionate about creating high-quality web applications that provide real value to users.
+  
+        </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills">
         <div class="skills-card">
-            <img class="skills-card-img" src="path/to/skill-image.jpg" alt="Skill">
-            <div class="skills-card-name">Skill Name</div>
+            <img class="skills-card-img" src="Images/java.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/SQL.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/hibernet.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/spring.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/JS.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/html.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/css.png" alt="Skill">
+            <div class="skills-card-name"></div>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="Images/dsa.png" alt="Skill">
+            <div class="skills-card-name"></div>
         </div>
         <!-- Add more skills cards here -->
     </section>
     
     <!-- Projects Section -->
     <section id="projects">
-        <div class="project-card">
-            <img src="path/to/project-image.jpg" alt="Project Image">
-            <div class="project-title">Project Title</div>
-            <div class="project-description">A brief description of the project</div>
-            <div class="project-tech-stack">The tech stack used in the project</div>
-            <a class="project-github-link" href="https://github.com/user/project" target="_blank">GitHub Repository</a>
-            <a class="project-deployed-link" href="https://deployed-project.com" target="_blank">Deployed Link</a>
+        <div id="pro_body">
+            <div class="project-card">
+                <img src="Images/beFit.png" alt="Project Image">
+                <div class="project-title">Be Fit with us</div>
+                <div class="project-description">
+                    BeFit is a health and fitness company based in India that offers a variety of fitness and wellness services.
+                    It include gym memberships, yoga classes, dance classes, personal training, and nutrition counseling. 
+                </div>
+                <div class="project-tech-stack">
+                    <img src="Images/html.png" alt="">
+                    <img src="Images/css.png" alt="">
+                    <img src="Images/JS.png" alt="">
+                </div>
+                <a class="project-github-link" href="https://github.com/Akash-376/safe-hat-14/tree/main/Be_fit_with_us" target="_blank">Git Repo</a>
+                <a class="project-deployed-link" href="https://fantastic-manatee-0e3746.netlify.app" target="_blank">Project Link</a>
+            </div>
+            <div class="project-card">
+                <img src="Images/blachAndWhite.png" alt="Project Image">
+                <div class="project-title">Black || White</div>
+                <div class="project-description">
+                    BLACK || WHITE is an American clothing and accessories company.The company offers a range of clothing for men, women, and children, including dresses, blouses, shirts, sweaters, pants, jackets, and accessories like shoes, bags, and jewelry.
+                </div>
+                <div class="project-tech-stack">
+                    <img src="Images/html.png" alt="">
+                    <img src="Images/css.png" alt="">
+                    <img src="Images/JS.png" alt="">
+                </div>
+                <a class="project-github-link" href="https://github.com/Manishkumar2784/lucid-tin-120" target="_blank">Git Repo</a>
+                <a class="project-deployed-link" href="https://courageous-puffpuff-caaa4c.netlify.app" target="_blank">Project Link</a>
+            </div>
+            <div class="project-card">
+                <img src="path/to/project-image.jpg" alt="Project Image">
+                <div class="project-title">Project Title</div>
+                <div class="project-description">A brief description of the project</div>
+                <div class="project-tech-stack">The tech stack used in the project</div>
+                <a class="project-github-link" href="https://github.com/user/project" target="_blank">Git Repo</a>
+                <a class="project-deployed-link" href="https://deployed-project.com" target="_blank">Project Link</a>
+            </div>
         </div>
+        
         <!-- Add more project cards here -->
     </section>
     
     <!-- Contact Section -->
     <section id="contact">
-        <a id="contact-github" href="https://github.com/user" target="_blank">GitHub Profile</a>
+        <!-- <a id="contact-github" href="https://github.com/user" target="_blank">GitHub Profile</a>
         <a id="contact-linkedin" href="https://linkedin.com/in/user" target="_blank">LinkedIn Profile</a>
         <div id="contact-phone">Phone Number</div>
-        <div id="contact-email">Email Address</div>
+        <div id="contact-email">Email Address</div> -->
+
+        <div id="cont-left">
+            <h1>Get in touch</h1>
+            <div id="contact-email">
+                <img src="Images/gm.png" alt="">
+                <p>akchauhan376@gmail.com</p>
+            </div>
+            <div id="contact-phone">
+                <img src="Images/phone.png" alt="">
+                <p>+91-8077317818</p>
+            </div>
+            <div id="contact-linkedin">
+                <img src="Images/ln.png" alt="">
+                <p><a href="https://www.linkedin.com/in/akash-chauhan-03b105243/" target="_blank" title="Go to linkedin page">linkedin</a></p>
+            </div>
+            
+            <div id="contact-github">
+                <img src="Images/git-r.png" alt="">
+                <a href="https://github.com/Akash-376" target="_blank" title="Go to github Repository">github</a>
+            </div>
+        </div>
+
+        <div id="cont-right">
+            <h1>Message me</h1>
+            <form action="">
+                <input type="text" placeholder="Full Name" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <input type="number" placeholder="Phone" required><br>
+                <textarea name="Message" cols="30" rows="5" placeholder="Message..."></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
     </section>
 
 </body>
