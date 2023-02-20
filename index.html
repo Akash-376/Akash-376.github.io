@@ -26,9 +26,11 @@
             <li><a class="nav-link skills" href="#skills">Skills</a></li>
             <li><a class="nav-link projects" href="#projects">Projects</a></li>
             <li><a class="nav-link contact" href="#contact">Contact</a></li>
-            <li><a class="nav-link resume" id="resume-link-1" href="https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing" target="_blank" title="Download resume" download>Resume <span id="downArrow">&#8681</span></a></li>
+            <li><a class="nav-link resume" id="resume-link-1"  target="_blank" title="Download resume">Resume <span class="downArrow">&#8681</span></a></li>
         </ul>
     </nav>
+
+    <!-- href="https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing" -->
 
     <!-- Home Section -->
     <section id="home">
@@ -36,7 +38,7 @@
             <p id="hi">Hi,my name is</p>
             <div id="user-detail-name">Akash <span> Chauhan </span></div>
             <div id="user-detail-intro" class="typing"> <span> I am a </span> Full Stack web developer </div>
-            <button id="resume-button-2" onclick="window.open('https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing', '_blank')">Download Resume</button>
+            <button id="resume-button-2" target="_blank" title="Download resume">Download Resume</button>
 
             <!-- <a id="resume-button-2" href="Akash_Chauhan_Resume.pdf" download>Download Resume</a> -->
         </div>
@@ -49,8 +51,8 @@
     <section id="about" class="about section">
         <!-- Add content here -->
         <img src="Images/akash.png" alt="">
-        <div id="hiText">Hi, I am Akash Chauhan</div>
-        <div id="title">
+        <h1 id="hiText">Hi, I am Akash Chauhan</h1>
+        <div id="bio">
 
             As a full stack web developer, I have always been passionate about creating innovative and user-friendly web applications that make people's lives easier. My journey in the world of web development began with learning the fundamentals of programming and building small projects.
             I believe that clear communication and collaboration are essential to success in web development projects, and I strive to work closely with clients and team members to ensure that everyone is on the same page and the project runs smoothly.
@@ -61,6 +63,9 @@
   
         </div>
     </section>
+
+
+    
 
     <!-- Skills Section -->
     <section id="skills">
@@ -143,6 +148,26 @@
         
         <!-- Add more project cards here -->
     </section>
+
+    <!-- ----------------Git hub section------------------- -->
+
+      <div id="githubs">
+        <h1>Git activity</h1>
+        <div id="git-container">
+            <div id="github-streak-stats" class="react-activity-calendar">
+                <img src="https://github-readme-stats.vercel.app/api?username=akash-376&show_icons=true&locale=en" alt="">
+            </div>
+            <div id="github-top-langs" class="react-activity-calendar">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs?username=akash-376&show_icons=true&locale=en&layout=compact" alt="">
+            </div>
+            <div id="github-stats-card" class="react-activity-calendar">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-376&" alt="">
+            </div>
+        </div>
+      </div>
+
+
+
     
     <!-- Contact Section -->
     <section id="contact">

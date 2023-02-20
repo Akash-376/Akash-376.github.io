@@ -47,6 +47,7 @@
     padding: 0 20px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 #nav-menu li a:hover{
     color: coral;
@@ -63,6 +64,7 @@
     transform:scale(2);
     z-index: 3;
 }
-#downArrow{
+.downArrow{
     font-size: 25px;
 }
+
