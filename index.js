@@ -28,15 +28,3 @@ function activeMenu(){
 activeMenu();
 window.addEventListener("scroll", activeMenu);
 
-
-
-// resume
-
-let resumeDownloadButton = document.getElementById("resume-button-1");
-resumeDownloadButton.addEventListener("click",()=>{
-    window.open("https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing");
-})
-let resumeDownloadButton2 = document.getElementById("resume-button-2");
-resumeDownloadButton2.addEventListener("click",()=>{
-    window.open("https:drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=sharing");
-})

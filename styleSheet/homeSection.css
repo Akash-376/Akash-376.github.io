@@ -27,7 +27,7 @@
 }
 #user-detail-intro{
     font-size: 30px;
-    margin: 8px 0;
+    margin: 8px 0 20px;
 }
 .typing> span{
     color: white;
@@ -70,7 +70,7 @@
     bottom: 0;
 }
 #resume-button-2{
-    margin-top:8px;
+    
     padding: 10px 20px;
     font-size: 20px;
     font-weight: bold;
@@ -78,6 +78,7 @@
     background-color: rgb(222, 168, 149);
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 #resume-button-2:hover{
     background-color: coral;
