@@ -97,7 +97,7 @@
 }
 #git-container{
     /* border: 2px solid; */
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
