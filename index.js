@@ -1,3 +1,4 @@
+
 var navbar = document.getElementById('nav-menu');
 navbar.classList.remove('navBG');
 
