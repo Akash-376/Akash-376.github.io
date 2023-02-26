@@ -1,4 +1,8 @@
 
+function downloadRes(){
+    window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
+}
+
 var navbar = document.getElementById('nav-menu');
 navbar.classList.remove('navBG');
 

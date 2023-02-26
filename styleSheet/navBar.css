@@ -50,8 +50,10 @@
     cursor: pointer;
 }
 #nav-menu li a:hover{
-    color: coral;
-    transition: all 0.4s ease 0s;
+    color: rgb(160, 82, 54);
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    transition: all 0.4s ease .1s;
     transform:scale(2);
     z-index: 3;
 }
