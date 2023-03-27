@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu&display=swap" rel="stylesheet">
@@ -13,15 +14,20 @@
     <link rel="stylesheet" href="styleSheet/skills.css">
     <link rel="stylesheet" href="styleSheet/projects.css">
     <link rel="stylesheet" href="styleSheet/contact.css">
+    
     <title>Akash Chauhan Portfolio</title>
 </head>
 <body>
     <nav id="nav-menu" class="navBG">
-        <div class="logo">
-            <a href="#"> Akash <span>Chauhan</span> </a> 
-        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"> &#8801</i>
+        </label>
+        <label class="logo"> Akash Chauhan </label>
+            
+        
         <ul>   
-            <li><a class="nav-link home" href="#home">Home</a></li>
+            <li><a class="nav-link home active" href="#home">Home</a></li>
             <li><a class="nav-link about" href="#about">About</a></li>
             <li><a class="nav-link skills" href="#skills">Skills</a></li>
             <li><a class="nav-link projects" href="#projects">Projects</a></li>
@@ -31,9 +37,10 @@
     </nav>
 
     <!-- Home Section -->
+
     <section id="home">
         <div id="home-left">
-            <p id="hi">Hi,my name is</p>
+            <p id="hi">Hi, my name is</p>
             <div id="user-detail-name">Akash <span> Chauhan </span></div>
             <div id="user-detail" class="typing"> <span> I am a </span> Full Stack web developer </div>
 
@@ -41,24 +48,22 @@
          
 
         </div>
-        <div id="home-right">
-            <img class="home-img" src="Images/businessman-avatar.png" alt="Professional Photo">
-        </div>
+
     </section>
 
     <!-- About Section -->
+
     <section id="about" class="about section">
+        <h2>ABOUT ME</h2>
         <h1 id="ab">About me</h1>
-        <!-- Add content here -->
         <img src="Images/akash.png" alt="">
-        <!-- <h2>About Me</h2> -->
         <h1 id="bio-title">Hi, I am Akash Chauhan</h1>
         <div id="user-detail-intro">
 
             As a full stack web developer, I have always been passionate about creating innovative and user-friendly web applications that make people's lives easier. My journey in the world of web development began with learning the fundamentals of programming and building small projects.
-            I believe that clear communication and collaboration are essential to success in web development projects, and I strive to work closely with clients and team members to ensure that everyone is on the same page and the project runs smoothly.
-            I am constantly learning and expanding my skill set, whether it's through attending conferences, participating in online courses, or experimenting with new technologies.
-            I have good experience in HTML, CSS, Java,Javascript,Springboot and Hibernate. 
+            <!-- I believe that clear communication and collaboration are essential to success in web development projects, and I strive to work closely with clients and team members to ensure that everyone is on the same page and the project runs smoothly. -->
+            <!-- I am constantly learning and expanding my skill set, whether it's through attending conferences, participating in online courses, or experimenting with new technologies.
+            I have good experience in HTML, CSS, Java,Javascript,Springboot and Hibernate.  -->
 
             In short, I am a dedicated and experienced full stack web developer who is passionate about creating high-quality web applications that provide real value to users.
   
@@ -69,6 +74,7 @@
     
 
     <!-- Skills Section -->
+
     <section id="skills">
         <div class="skills-card">
             <img class="skills-card-img" src="Images/java.png" alt="Skill">
@@ -102,10 +108,10 @@
             <img class="skills-card-img" src="Images/dsa.png" alt="Skill">
             <div class="skills-card-name"></div>
         </div>
-        <!-- Add more skills cards here -->
     </section>
     
     <!-- Projects Section -->
+
     <section id="projects">
         <div id="pro_body">
             <div class="project-card">
@@ -171,28 +177,12 @@
 
         </div>
         
-        <!-- Add more project cards here -->
     </section>
 
-    <!-- ----------------Git hub section------------------- -->
-
-      <!-- <div id="githubs">
-            <h1>Git activity</h1>
-            <div id="git-container" class="react-activity-calendar">
-                <div id="github-streak-stats">
-                    <img src="https://github-readme-stats.vercel.app/api?username=akash-376&show_icons=true&locale=en" alt="">
-                </div>
-                <div id="github-top-langs">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=akash-376&show_icons=true&locale=en&layout=compact" alt="">
-                </div>
-                <div id="github-stats-card">
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=akash-376&" alt="">
-                </div>
-            </div>
-        </div> -->
 
 
           <!-- ---------------------Github section-------------------------- -->
+
     <div id="githubs">
         <div class="react-activity-calendar">
         <h1 class="title">GitHub Activity-Calendar</h1>
@@ -232,11 +222,8 @@
 
     
     <!-- Contact Section -->
+
     <section id="contact">
-        <!-- <a id="contact-github" href="https://github.com/user" target="_blank">GitHub Profile</a>
-        <a id="contact-linkedin" href="https://linkedin.com/in/user" target="_blank">LinkedIn Profile</a>
-        <div id="contact-phone">Phone Number</div>
-        <div id="contact-email">Email Address</div> -->
 
         <div id="cont-left">
             <h1>Get in touch</h1>
