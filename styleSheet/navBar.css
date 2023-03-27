@@ -198,7 +198,7 @@
         background: #2c3e50;
         /* top: 80px;
         left: -100%; */
-        top: -100%;
+        top: -200%;
         text-align: center;
         transition: all 0.5s;
         z-index: -1;
