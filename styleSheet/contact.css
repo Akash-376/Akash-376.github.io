@@ -3,21 +3,18 @@
 
     width: 100%;
     height: 100vh;
-    display: flex;
-    padding: 150px 10% 0;
+    padding: 9rem 10% 0;
     display: flex;
     justify-content: space-evenly;
 }
 #cont-left{
     width: 50%;
-    /* border: 2px solid green; */
-    padding: 100px 40px;
+    padding: 6rem 2.5rem;
 }
 #cont-left div{
     width: 80%;
     margin-top: 20px;
     display: flex;
-    /* border: 2px solid red; */
     align-items: center;
 }
 #cont-left div p, #cont-left div a {
@@ -26,7 +23,7 @@
     color: black;
 }
 #cont-left div img{
-    width: 40px;
+    width: 2.5rem;
     margin-right: 20px;
     
 }
@@ -36,6 +33,7 @@
     color: coral;
     font-size: 50px;
     margin-bottom: 50px;
+    text-align: left;
 }
 
 
@@ -47,7 +45,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    padding: 40px;
+    padding: 2.5rem;
 }
 #cont-right input,#cont-right textarea{
     width: 97%;
@@ -71,7 +69,7 @@
 }
 #cont-right h1{
     color: coral;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     text-align: center;
     font-size: 30px;
 
@@ -84,4 +82,69 @@
     transform:scale(.95);
     transition: all 0.4s ease 0s;
     z-index: 1;
+}
+
+
+@media (max-width:770px){
+
+    #contact{
+        display: block;
+        padding: 7rem 10% 0;
+        margin-bottom: 100px;
+
+    }
+
+    #cont-left{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #cont-left h1{
+        color: coral;
+        font-size: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+
+    #cont-left div p, #cont-left div a {
+        font-size: 14px;
+    }
+    #cont-left div img{
+        width: 1rem;
+        margin-right: 20px;
+        
+    }
+
+
+
+
+    #cont-right{
+        width: 100%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 1rem;
+    }
+
+    #cont-right h1{
+        margin-bottom: 2rem;
+        font-size: 20px;
+
+    }
+
+    #cont-right input,#cont-right textarea{
+        width: 95%;
+        font-size: 12px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #cont-right button{
+        margin-left: 10px;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    
 }

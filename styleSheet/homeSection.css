@@ -1,9 +1,9 @@
 
 *{
     font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
 }
 #home{
-    /* padding: 300px 350px 0 140px; */
     width: 100%;
     height: 100vh;
     color: white;
@@ -111,15 +111,14 @@
     
 }
 
-@media (max-width:1160px){
+/* @media (max-width:1160px){
     
-}
+} */
 @media (max-width:415px){
+
     .typing{
         border-right: none;
         width: auto;
-        /* white-space: nowrap;
-        overflow: hidden; */
         animation:none;
     }
     
@@ -142,4 +141,89 @@
         font-size: 0.8rem;
      
     }
+
+
+
+
+    /* github section */
+    #githubs{
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+    }
+    #githubs h1{
+        font-size: 20px;
+    }
+    .github-list{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .github-list div{
+        width: 100%;
+        /* border: 2px solid red; */
+        
+        border-radius: 20px;
+    }
+    .github-list div img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
+}
+@media (max-width:770px){
+
+    
+    #hi{
+        font-size: 1.5rem;
+ 
+    }
+
+    #user-detail{
+        font-size: 1.3rem;
+    }
+
+    #user-detail-name{
+        font-size: 2rem;
+    }
+
+    #resume-button-2{
+    
+        padding: 5px 10px;
+        font-size: 0.8rem;
+     
+    }
+
+
+
+
+    /* github section */
+    #githubs{
+        width: 100%;
+        height: auto;
+        padding-bottom: 70px;
+    }
+    #githubs h1{
+        font-size: 20px;
+    }
+    .github-list{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .github-list div{
+        width: 100%;
+        /* border: 2px solid red; */
+        
+        border-radius: 20px;
+    }
+    .github-list div img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+
 }
