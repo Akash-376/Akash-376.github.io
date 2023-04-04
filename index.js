@@ -3,11 +3,12 @@
 //     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
 // })
 
+document.getElementById("resume-button-1").onclick = ()=>{
+    window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link",`_blank`)
+}
 
-function resume() {
-    // var win = window.open('Akash_Chauhan_Resume.pdf', '_blank');
-    var win = window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
-    win.focus();
+document.getElementById("resume-button-2").onclick = ()=>{
+    window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link",`_blank`)
 }
 
 
