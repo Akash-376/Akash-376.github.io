@@ -1,8 +1,15 @@
-let resButton = document.getElementById("resume-button-2");
-resButton.addEventListener("click", ()=>{
-    // window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
-})
+// let resButton = document.getElementById("resume-button-2");
+// resButton.addEventListener("click", ()=>{
+//     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
+// })
 
+document.getElementById("resume-button-1").onclick = ()=>{
+    // window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view",`_blank`)
+  }
+  
+  document.getElementById("resume-button-2").onclick = ()=>{
+    // window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view",`_blank`)
+  }
 
 var navbar = document.getElementById('nav-menu');
 navbar.classList.remove('navBG');
