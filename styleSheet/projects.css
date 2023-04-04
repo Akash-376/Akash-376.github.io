@@ -4,7 +4,7 @@
     
     padding-top: 6rem;
     padding-bottom: 70px;
-    background-color: gray;
+    /* background-color: gray; */
     
 }
 
@@ -27,8 +27,9 @@
     
 }
 .project-card{
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-color: rgb(213, 206, 206);
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: rgb(213, 206, 206); */
     margin: auto;
     text-align: center;
     padding: 20px;

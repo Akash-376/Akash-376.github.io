@@ -2,7 +2,7 @@
 
 #skills{
     height: 100vh;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
 }
 
 #skills h2{
@@ -12,6 +12,7 @@
     padding-bottom: 2rem;
     letter-spacing: 4px;
     font-size: 30px;
+    color: coral;
 }
 
 #skill{
@@ -108,7 +109,7 @@
 }
 
 
-@media (max-width:770px){
+@media (max-width:415px){
 
    
     #skills h2{

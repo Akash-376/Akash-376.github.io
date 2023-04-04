@@ -2,11 +2,17 @@
 #about{
     width: 100%;
     height: 100vh;
-    background-color: grey;
+    /* background-color: grey; */
     text-align: center;
     padding-top:8rem ;
     padding-bottom:4rem ;
     
+}
+
+#about h1:nth-child(1){
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: coral;
 }
 
 #about img{

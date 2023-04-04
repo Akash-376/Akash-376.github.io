@@ -63,7 +63,7 @@
 }
 
 
-#resume-button-2{
+#resume-button-2 a{
     
     padding: 10px 20px;
     font-size: 20px;
@@ -74,9 +74,11 @@
     cursor: pointer;
     text-decoration: none;
 }
-#resume-button-2:hover{
+#resume-button-2 a:hover{
     background-color: coral;
     transition: all 0.4s ease 0s;
+    color: white;
+    font-weight: 900;
 }
 
 #githubs{

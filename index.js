@@ -1,7 +1,3 @@
-// let resButton = document.getElementById("resume-button-2");
-// resButton.addEventListener("click", ()=>{
-//     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
-// })
 
 document.getElementById("resume-button-1").onclick = ()=>{
     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link",`_blank`)
@@ -12,16 +8,30 @@ document.getElementById("resume-button-2").onclick = ()=>{
 }
 
 
+let resButton = document.querySelector("#resume-link-2");
+resButton.addEventListener("mouseenter", () =>{
+    resButton.innerText = "Download";
+})
+resButton.addEventListener("mouseleave", () =>{
+    resButton.innerText = "Resume";
+})
+
+
 var navbar = document.getElementById('nav-menu');
-navbar.classList.remove('navBG');
+
+navbar.addEventListener("onload", ()=>{
+    navbar.classList.remove('navBG');
+})
+
 
 function changNavBG(){
     var navbar = document.getElementById('nav-menu');
     var scrollValue = window.scrollY;
-    console.log(scrollValue+ " scroll")
-    if(scrollValue > 150){
-        navbar.classList.add('navBG');
-    }else navbar.classList.remove('navBG');
+    // console.log(scrollValue+ " scroll")
+    if(scrollValue > 180){
+        
+        navbar.classList.remove('navBG');
+    }else navbar.classList.add('navBG');
 
 }
 
