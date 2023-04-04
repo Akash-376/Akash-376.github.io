@@ -1,8 +1,13 @@
-let resButton = document.getElementById("resume-button-2");
-resButton.addEventListener("click", ()=>{
-    window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
-})
+// let resButton = document.getElementById("resume-button-2");
+// resButton.addEventListener("click", ()=>{
+//     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
+// })
 
+
+function resume() {
+    var win = window.open('Akash_Chauhan_Resume.pdf', '_blank');
+    win.focus();
+}
 
 
 var navbar = document.getElementById('nav-menu');
