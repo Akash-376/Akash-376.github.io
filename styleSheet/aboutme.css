@@ -16,9 +16,8 @@
 }
 
 #about img{
-    width: 10rem;
+    width: 15rem;
     margin-top: 2rem;
-    background-color: rgb(210, 147, 125);
     border-radius: 50%;
     /* border: 2px solid red; */
 }
