@@ -78,23 +78,35 @@ a.active,a:hover, nav ul #resume-button-1 a:hover{
    ul{
        position: fixed;
        width: 100%;
-       height: auto;
-       background: #2c3e50;
+       height: 100vh;
+
+       /* background: #2c3e50; */
+       /* background-color: transparent; */
+      
+       /* giving transparent look to the navBar shutter */
+       background-color: rgba(255, 255, 255, 0.5);
+       backdrop-filter: blur(10px);
+       
+
        /* top: 80px;
        left: -100%; */
        top: -200%;
        text-align: center;
        transition: all 0.5s;
        z-index: -1;
+       scroll-behavior: smooth;
    }
    nav ul li{
        display: block;
        margin: 50px 0;
        line-height: 30px;
+       
    }
-   nav ul li a{
+   nav ul li a, nav ul #resume-button-1 a{
        font-size: 20px;
+       color: black;
    }
+   
    a:hover, a.active{
        background: none;
        color: coral;

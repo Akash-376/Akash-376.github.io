@@ -52,3 +52,16 @@ function activeMenu(){
 activeMenu();
 window.addEventListener("scroll", activeMenu);
 
+// get the checkbox element
+let checkbox = document.querySelector("#check");
+
+let listItems = document.querySelectorAll("#nav-menu ul li");
+
+// loop through all li elements and add click event listener
+listItems.forEach(listItem => {
+  listItem.addEventListener("click", () => {
+    // uncheck the checkbox
+    checkbox.checked = false;
+  });
+});
+
