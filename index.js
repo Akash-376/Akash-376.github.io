@@ -1,10 +1,15 @@
 
+let clickSound = new Audio("sound/Mouse_click.mp3");
+let downloadSound = new Audio("sound/download_sound.mp3");
+
 document.getElementById("resume-button-1").onclick = ()=>{
     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link",`_blank`)
+    downloadSound.play();
 }
 
 document.getElementById("resume-button-2").onclick = ()=>{
     window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link",`_blank`)
+    downloadSound.play();
 }
 
 
@@ -62,6 +67,17 @@ listItems.forEach(listItem => {
   listItem.addEventListener("click", () => {
     // uncheck the checkbox
     checkbox.checked = false;
+    clickSound.play();
   });
 });
 
+
+// project click button sound
+
+let clickEffect = document.querySelectorAll(".click-sound");
+
+clickEffect.forEach(btn => {
+    btn.addEventListener("click", () => {
+        clickSound.play();
+    })
+})
