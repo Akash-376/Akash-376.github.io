@@ -17,6 +17,8 @@
   --black : black;
   --hover : #01579b;
   --text-color : #b2dfdb;
+  --primary-shadow: rgb(250, 164, 250);
+  --primary-shadow-blue: rgb(133, 133, 246);
 }
 /* Variables end */
 
@@ -137,6 +139,7 @@ body {
     padding-top: 6rem;
     background-color: var(--bg-color);
     height: 100vh;
+    
   }
 
   .header-container h1{
@@ -163,13 +166,14 @@ body {
     background-color: var(--blue);
     border-radius: 50% 0% 50% 0%;
     transition: all 0.6s ease-in-out 0s;
+    box-shadow: 0px 2px 5px 2px var(--primary-shadow-blue);
   }
 
   #resume:hover{
     transition: var(--transition);
     background-color: var(--hover);
     border-radius: 0% 50% 0% 50%;
-    box-shadow: 2px 2px 2px 2px red;
+    box-shadow: 0px 2px 5px 2px red;
     transition: all 0.6s ease-in-out 0s;
 
   }
@@ -179,11 +183,12 @@ body {
     border-radius: 50%;
     transition: all 0.6s ease-in-out 0s;
     animation: bounce 1s infinite alternate;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   }
   .profile-image:hover{
     width: 200px;
     border-radius: 30%;
-    box-shadow: 2px 2px 2px 2px red;
+    box-shadow: 0px 2px 5px 2px red;
     transition: all 0.6s ease-in-out 0s;
     animation:none;
     cursor: pointer;
@@ -230,11 +235,12 @@ body {
     padding: 0.5rem;
     border-radius: 50% 0% 50% 0%;
     transition: all 0.6s ease-out 0s;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   }
   #logoimg:hover{
     border-radius: 0% 50% 0% 50%;
     transition: all 1s ease-out 0s;
-    box-shadow: 2px 2px 2px 3px red;
+    box-shadow: 2px 2px 5px 3px red;
     cursor: pointer;
   }
 
@@ -415,6 +421,7 @@ body {
     display: inline;
     background-color: var(--blue);
     border-radius: 50% 0% 50% 0%;
+    box-shadow: 0px 2px 5px 2px var(--primary-shadow-blue);
     transition: all 0.6s ease-in-out 0s;
     font-size: 14px;
   }
@@ -425,6 +432,9 @@ body {
     box-shadow: 1px 1px 1px 1px red;
     transition: all 0.6s ease-in-out 0s;
     
+  }
+  #submit-btn{
+    box-shadow: 0px 2px 5px 2px var(--primary-shadow-blue);
   }
 
   .img1{
@@ -459,6 +469,10 @@ body {
 
   .projects {
     background-color: var(--bg-color);
+  }
+  .projects> div>div {
+    background-color: var(--bg-color);
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   }
   
 
@@ -531,6 +545,7 @@ body {
     padding: 0.938rem;
     border-radius: 5px;
     margin: auto;
+    
   }
 
   .contact-form-container label {
